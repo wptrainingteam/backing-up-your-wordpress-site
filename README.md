@@ -62,13 +62,13 @@ Locate and open Filezilla. You will see the following screen, click on the icon 
 
 In the Site Manager dialog box that opens, enter the credentials you received from your web host as follows, make sure to select SFTP as your Protocol and select the Logon Type: Normal. Some web hosts provide a port number; if so, enter it under Port, but it most cases, it is ok to leave it blank. 
 
-[![](/images/filezilla-2.png)
+![](/images/filezilla-2.png)
 
 #### Connect to your server
 
 Click the "Connect" button at the bottom of the dialog box. Upon successful connection, you should see a list of files on the remote server that looks similar to below. 
 
-[![](/images/filezilla-31.png)
+![](/images/filezilla-31.png)
 
 #### Identify WordPress files
 
@@ -78,19 +78,19 @@ Depending on your individual setup, your WordPress site may be located in a fold
 
 In Filezilla, the left side of the window contains your local files on your computer. You will need to browse to the desktop of your PC or Mac: 
 
-[![](/images/filezilla-4.png)
+![](/images/filezilla-4.png)
 
 When you click on the Desktop folder, the pane below will show all of the current folders and files. When you right-mouse-click the Desktop folder, you will be presented with a list of options, select, "**Create directory**". 
 
-[![](/images/Filezilla5.png) 
+![](/images/Filezilla5.png) 
 
 Enter the name as "**backup-2015-02-02**" after the path to your desktop, using today's date. This will help you to identify different backups from different days. Click the "**OK**" button. 
 
-[![](/images/filezilla-6.png)
+![](/images/filezilla-6.png)
 
 Scroll down in the local files menu and locate the folder you just created, double-click it to select it. You should see that there are no files in this directory. 
 
-[![](/images/filezilla-7.png)
+![](/images/filezilla-7.png)
 
 #### Copy WordPress files to the local folder
 
@@ -110,7 +110,7 @@ In addition to your site's files, your website is also comprised of a database t
 
 Connect to SFTP,  browse to the root of your WordPress installation, right-mouse click on wp-config.php, and select View/Open. Scroll down to the the DB_NAME field, and note the DB_Name, DB_USER, and DB_PASSWORD fields. These fields contain the information you will need to logon to PHPMyAdmin. 
 
-[![](/images/wp-config.png)
+![](/images/wp-config.png)
 
 #### Logon to PHPMyAdmin
 
@@ -122,11 +122,11 @@ On the left, you will see a list of databases. Select the database that correspo
 
 ![](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-help.png) Missing image below
 
-[![](https://make.wordpress.org/training/files/2015/01/phpmyadmin-1024x359.png)](https://make.wordpress.org/training/files/2015/01/phpmyadmin.png)
+![](https://make.wordpress.org/training/files/2015/01/phpmyadmin-1024x359.png)](https://make.wordpress.org/training/files/2015/01/phpmyadmin.png)
 
 #### Export the data to an .SQL file in your local folder
 
-[![](/images/phpmyadmin-export.png)
+![](/images/phpmyadmin-export.png)
 
 ## Exercises
 
