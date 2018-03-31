@@ -62,13 +62,13 @@ Locate and open Filezilla. You will see the following screen, click on the icon 
 
 In the Site Manager dialog box that opens, enter the credentials you received from your web host as follows, make sure to select SFTP as your Protocol and select the Logon Type: Normal. Some web hosts provide a port number; if so, enter it under Port, but it most cases, it is ok to leave it blank. 
 
-[![](https://raw.githubusercontent.com/wptrainingteam/backing-up-your-wordpress-site/images/filezilla-2.png)](https://raw.githubusercontent.com/wptrainingteam/backing-up-your-wordpress-site/images/filezilla-2.png)
+[![](/images/filezilla-2.png)
 
 #### Connect to your server
 
 Click the "Connect" button at the bottom of the dialog box. Upon successful connection, you should see a list of files on the remote server that looks similar to below. 
 
-[![](https://raw.githubusercontent.com/wptrainingteam/backing-up-your-wordpress-site/images/filezilla-31.png)](https://raw.githubusercontent.com/wptrainingteam/backing-up-your-wordpress-site/images/filezilla-31.png)
+[![](/images/filezilla-31.png)
 
 #### Identify WordPress files
 
@@ -78,26 +78,27 @@ Depending on your individual setup, your WordPress site may be located in a fold
 
 In Filezilla, the left side of the window contains your local files on your computer. You will need to browse to the desktop of your PC or Mac: 
 
-[![](https://raw.githubusercontent.com/wptrainingteam/backing-up-your-wordpress-site/images/filezilla-4.png)](https://raw.githubusercontent.com/wptrainingteam/backing-up-your-wordpress-site/images/filezilla-4.png) 
+[![](/images/filezilla-4.png)
 
 When you click on the Desktop folder, the pane below will show all of the current folders and files. When you right-mouse-click the Desktop folder, you will be presented with a list of options, select, "**Create directory**". 
 
-[![Filezilla5](backing-up-your-wordpress-site/images/Filezilla5.png)](https://raw.githubusercontent.com/wptrainingteam/backing-up-your-wordpress-site/images/Filezilla5.png) 
+[![](/images/Filezilla5.png) 
 
 Enter the name as "**backup-2015-02-02**" after the path to your desktop, using today's date. This will help you to identify different backups from different days. Click the "**OK**" button. 
 
-[![](https://raw.githubusercontent.com/wptrainingteam/backing-up-your-wordpress-site/images/filezilla-6.png)](https://raw.githubusercontent.com/wptrainingteam/backing-up-your-wordpress-site/images/filezilla-6.png) 
+[![](/images/filezilla-6.png)
 
 Scroll down in the local files menu and locate the folder you just created, double-click it to select it. You should see that there are no files in this directory. 
 
-[![](https://raw.githubusercontent.com/wptrainingteam/backing-up-your-wordpress-site/images/filezilla-7.png)](https://raw.githubusercontent.com/wptrainingteam/backing-up-your-wordpress-site/images/filezilla-7.png)
+[![](/images/filezilla-7.png)
 
 #### Copy WordPress files to the local folder
 
 There are several ways in which you may download your WordPress files, the easiest way is to click on the remote server pane, hit Ctrl+A (PC) or Cmd+A (Mac) to select all the files on the remote server, and then pull them over to the empty pane under your desktop folder than you created. This will begin the download process which may take a few minutes depending on the size of your installation. 
 
 ![](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-help.png) Missing image below
-![backingup](http://make.wordpress.org/training/files/2015/01/backingup.gif) 
+
+![backingup.gif](http://make.wordpress.org/training/files/2015/01/backingup.gif) 
 
 The bottom-most transfer status pane will appear blank after the files have all been transferred, and they will have been copied to your backup folder that you created previously. Congratulations, you have backed up your site files! You are now halfway done to creating a full backup.
 
@@ -109,7 +110,7 @@ In addition to your site's files, your website is also comprised of a database t
 
 Connect to SFTP,  browse to the root of your WordPress installation, right-mouse click on wp-config.php, and select View/Open. Scroll down to the the DB_NAME field, and note the DB_Name, DB_USER, and DB_PASSWORD fields. These fields contain the information you will need to logon to PHPMyAdmin. 
 
-[![wp-config](https://raw.githubusercontent.com/wptrainingteam/backing-up-your-wordpress-site/images/wp-config.png)](https://raw.githubusercontent.com/wptrainingteam/backing-up-your-wordpress-site/images/wp-config.png)
+[![](/images/wp-config.png)
 
 #### Logon to PHPMyAdmin
 
@@ -120,11 +121,12 @@ Obtain the URL to logon to PHPMyAdmin from your web hosting provider. IT may ac
 On the left, you will see a list of databases. Select the database that corresponds with the one indicated in wp-config.php. Once selected, you will see a list of tables and command tabs on the right side. 
 
 ![](https://raw.githubusercontent.com/wptrainingteam/contributor-resources/master/images/icon-help.png) Missing image below
+
 [![](https://make.wordpress.org/training/files/2015/01/phpmyadmin-1024x359.png)](https://make.wordpress.org/training/files/2015/01/phpmyadmin.png)
 
 #### Export the data to an .SQL file in your local folder
 
-[![phpmyadmin-export](https://raw.githubusercontent.com/wptrainingteam/backing-up-your-wordpress-site/images/phpmyadmin-export.png)](https://raw.githubusercontent.com/wptrainingteam/backing-up-your-wordpress-site/images/phpmyadmin-export.png)
+[![](/images/phpmyadmin-export.png)
 
 ## Exercises
 
