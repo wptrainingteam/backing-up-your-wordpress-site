@@ -58,7 +58,7 @@ It is important that when you connect and transfer your files that you do so in 
 
 Locate and open Filezilla. You will see the following screen, click on the icon indicated to open the Site Manager.
 
-![filezilla-1](backing-up-your-wordpress-site/images/filezilla-1.png)
+![filezilla-1](/images/filezilla-1.png)
 
 In the Site Manager dialog box that opens, enter the credentials you received from your web host as follows, make sure to select SFTP as your Protocol and select the Logon Type: Normal. Some web hosts provide a port number; if so, enter it under Port, but it most cases, it is ok to leave it blank. 
 
