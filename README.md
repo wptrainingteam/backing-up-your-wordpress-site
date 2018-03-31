@@ -58,7 +58,7 @@ It is important that when you connect and transfer your files that you do so in 
 
 Locate and open Filezilla. You will see the following screen, click on the icon indicated to open the Site Manager.
 
-[![filezilla-1](https://raw.githubusercontent.com/wptrainingteam/backing-up-your-wordpress-site/images/filezilla-1.png)](filezilla-1](https://raw.githubusercontent.com/wptrainingteam/backing-up-your-wordpress-site/images/filezilla-1.png) 
+![filezilla-1](backing-up-your-wordpress-site/images/filezilla-1.png)
 
 In the Site Manager dialog box that opens, enter the credentials you received from your web host as follows, make sure to select SFTP as your Protocol and select the Logon Type: Normal. Some web hosts provide a port number; if so, enter it under Port, but it most cases, it is ok to leave it blank. 
 
@@ -82,7 +82,7 @@ In Filezilla, the left side of the window contains your local files on your comp
 
 When you click on the Desktop folder, the pane below will show all of the current folders and files. When you right-mouse-click the Desktop folder, you will be presented with a list of options, select, "**Create directory**". 
 
-[![Filezilla5](https://raw.githubusercontent.com/wptrainingteam/backing-up-your-wordpress-site/images/Filezilla5.png)](https://raw.githubusercontent.com/wptrainingteam/backing-up-your-wordpress-site/images/Filezilla5.png) 
+[![Filezilla5](backing-up-your-wordpress-site/images/Filezilla5.png)](https://raw.githubusercontent.com/wptrainingteam/backing-up-your-wordpress-site/images/Filezilla5.png) 
 
 Enter the name as "**backup-2015-02-02**" after the path to your desktop, using today's date. This will help you to identify different backups from different days. Click the "**OK**" button. 
 
