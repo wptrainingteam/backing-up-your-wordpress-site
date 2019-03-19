@@ -149,7 +149,9 @@ On the left, you will see a list of databases. Select the database that correspo
 1.  True
 2.  False
 
-**Answer** 1\. True. Using SFTP encrypts your username and password so it cannot be viewed by others on the network. **Question:** If you only backup your files, what will be missing from your backup?
+**Answer** 1\. True. Using SFTP encrypts your username and password so it cannot be viewed by others on the network. 
+
+**Question:** If you only backup your files, what will be missing from your backup?
 
 1.  WordPress application files
 2.  All of your content and settings
@@ -157,7 +159,9 @@ On the left, you will see a list of databases. Select the database that correspo
 4.  Plugins
 5.  All of the above
 
-**Answer:** 2\. All of your content and settings: posts, pages, CPTs, menus, widgets, and configuration settings are all part of the database, which also needs to be backed up. **Question:** What is the first thing you should do after opening Filezilla to backup your files?
+**Answer:** 2\. All of your content and settings: posts, pages, CPTs, menus, widgets, and configuration settings are all part of the database, which also needs to be backed up. 
+
+**Question:** What is the first thing you should do after opening Filezilla to backup your files?
 
 1.  Download the folders
 2.  Download the files
@@ -165,7 +169,9 @@ On the left, you will see a list of databases. Select the database that correspo
 4.  View the remote server files
 5.  All of the above
 
-**Answer:** 3\. Open the connection dialog, enter your credentials, then click connect to connect to the remote server. Once connected, you will be able to view the folders and files on the server and be able to download them. **Question:** Which files and folders should you download to make a complete backup of the WordPress files?
+**Answer:** 3\. Open the connection dialog, enter your credentials, then click connect to connect to the remote server. Once connected, you will be able to view the folders and files on the server and be able to download them. 
+
+**Question:** Which files and folders should you download to make a complete backup of the WordPress files?
 
 1.  wp-admin folder
 2.  wp-content folder
