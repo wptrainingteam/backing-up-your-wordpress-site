@@ -130,7 +130,7 @@ On the left, you will see a list of databases. Select the database that correspo
 
 ## Exercises
 
-**Create a backup of your site's files**: Following the steps as illustrated in the demonstration,  backup your site's files to a folder on your desktop.
+**Create a backup of your site's files:** Following the steps as illustrated in the demonstration,  backup your site's files to a folder on your desktop.
 
 *   Download and install Filezilla, if needed.
 *   Configure the connection settings with credentials from your host.
@@ -138,7 +138,7 @@ On the left, you will see a list of databases. Select the database that correspo
 *   Download all the files and folders that makeup your WordPress installation to this folder
 *   Teacher should verify the correct folders and files have been downloaded.
 
-**Create a backup of your site's database**: Following the steps as illustrated in the demonstration,  backup your site's database and save to the same folder created previously on your desktop.
+**Create a backup of your site's database:** Following the steps as illustrated in the demonstration,  backup your site's database and save to the same folder created previously on your desktop.
 
 ## Quiz
 
