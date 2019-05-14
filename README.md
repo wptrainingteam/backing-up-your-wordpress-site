@@ -179,6 +179,16 @@ On the left, you will see a list of databases. Select the database that correspo
 
 **Answer:** 5\. All of the above. You must download the entire wp-admin, wp-includes, wp-content folders and all of root files in the WordPress folder.
 
+**Question:** Which of the following is free backup plugin to take site backup?
+
+1.  UpdraftPlus Backup and Restoration
+2.  Duplicator
+3.  BackWPup – WordPress Backup Plugin
+4.  All-in-One WP Migration
+5.  All of the above
+
+**Answer:** 5\. All of the above
+
 ## Additional Resources
 
 [WordPress Backups](https://codex.wordpress.org/WordPress_Backups) @ Codex
