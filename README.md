@@ -32,7 +32,7 @@ You will be better equipped to work through this lesson if you have experience i
 ## Screening Questions
 
 *   Do you have a self-hosted WordPress.org website (vs. WordPress.com website)?
-*   Do you have SFTP credentials to your website? (ask your web h0st)
+*   Do you have SFTP credentials to your website? (ask your web host)
 *   Do you have access to a hosting control panel, such as cPanel or Plesk? (ask your web host)
 *   Do you have access to run PHPMyAdmin on your server? (ask your web host)
 
