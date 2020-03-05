@@ -19,7 +19,7 @@ After completing this lesson, you will be able to:
 You will be better equipped to work through this lesson if you have experience in and familiarity with:
 
 *   SFTP hosting credentials: hostname, port, username, and password
-*   How to use an basic SFTP client, such as [Filezilla](http://codex.wordpress.org/Using_FileZilla) or Cyberduck
+*   How to use a basic SFTP client, such as [Filezilla](http://codex.wordpress.org/Using_FileZilla) or Cyberduck
 *   Access to your hosting panel's [PHPMyAdmin](http://codex.wordpress.org/phpMyAdmin) or database administration
 
 ## Assets
