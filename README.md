@@ -108,7 +108,7 @@ In addition to your site's files, your website is also comprised of a database t
 
 #### View wp-config.php to obtain database name
 
-Connect to SFTP,  browse to the root of your WordPress installation, right-mouse click on wp-config.php, and select View/Open. Scroll down to the the DB_NAME field, and note the DB_Name, DB_USER, and DB_PASSWORD fields. These fields contain the information you will need to logon to PHPMyAdmin. 
+Connect to SFTP,  browse to the root of your WordPress installation, right-mouse click on wp-config.php, and select View/Open. Scroll down to the DB_NAME field, and note the DB_Name, DB_USER, and DB_PASSWORD fields. These fields contain the information you will need to logon to PHPMyAdmin. 
 
 ![](/images/wp-config.png)
 
